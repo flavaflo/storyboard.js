@@ -1,10 +1,10 @@
-# reveal.js
+# storboard.js (based on reveal.js)
 
-A CSS 3D slideshow tool for quickly creating good looking HTML presentations. Doesn't _rely_ on any external libraries but [highlight.js](http://softwaremaniacs.org/soft/highlight/en/description/) is included by default for code highlighting.
+A CSS 3D slideshow tool for quickly creating good looking design presentations. Doesn't _rely_ on any external libraries but [highlight.js](http://softwaremaniacs.org/soft/highlight/en/description/) is included by default for code highlighting.
 
 Note that this requires a browser with support for CSS 3D transforms and ``classList``. If CSS 3D support is not detected, the presentation will degrade to less exciting 2D transitions. A [classList polyfill](http://purl.eligrey.com/github/classList.js/blob/master/classList.js) is incuded to make this work in < iOS 5, < Safari 5.1 and IE.
 
-Curious about how it looks in action? [Check out the demo page](http://lab.hakim.se/reveal-js/).
+Curious about how it looks in action? [Check out the demo page](http://lab.flosuesstrunk.com/storyboard-js/).
 
 ## Usage
 
@@ -15,10 +15,10 @@ Markup heirarchy needs to be ``<div id="reveal"> <div class="slides"> <section>`
 ```html
 <div id="reveal">
 	<div class="slides"> 
-		<section>Single Horizontal Slide</section>
+		<section><img src="content/img.jpg"></section>
 		<section>
-			<section>Vertical Slide 1</section>
-			<section>Vertical Slide 2</section>
+			<section><img src="content/img2.jpg"></section>
+			<section><img src="content/img3.jpg"></section>
 		</section>
 	</div>
 </div>
